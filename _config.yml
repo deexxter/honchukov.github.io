@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: /deexxter/honchukov.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,32 +9,28 @@ version: 2
 name: Oleh Honchukov
 title: Devops Engineer
 email: jaykey@ukr.net
-website: https://deexxter.github.io/honchukov.github.io/
+# website: mywebsite.com
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 #twitter_username: ""
 github_username:  deexxter
-facebook_username: ohonchukov
+facebook_username: honchukov
 instagram_username: o.honchukov
 linkedin_username: ohonchukov
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: google.com
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://deexxter.github.io/honchukov.github.io/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+
 
 # About Section
 # about_title: About Me
@@ -50,12 +46,12 @@ content:
     content:
       - layout: top-middle
         title: Super awesome project
-        link: github.com/sproogen
+        link: github.com/deexxter
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  honchukov.github.io
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/deexxter/honchukov.github.io
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -68,11 +64,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: PINUP.TECH
+        link: https://pin-up.global/
+        link_text: pin-up.global
+        sub_title: Junior Devops Engineer
+        caption: January 2022 - Present
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
@@ -83,7 +79,7 @@ content:
     content:
       - layout: left
         title: Harvard University
-        caption: 2010 - 2013
+        caption: 2014 - 2016
         sub_title: BSc Computer Science
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
@@ -99,10 +95,7 @@ content:
       - Rock climbing
       - Gaming
       - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      
 
 # Footer
 footer_show_references: true
