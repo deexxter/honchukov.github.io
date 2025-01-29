@@ -149,14 +149,16 @@ content:
     layout: list
     content:
       - layout: left
-        description: CISCO CCNA 
-        caption: 2013 - 2014
-      - layout: left
-        description: Skillbox Devops practice
-        caption: 2021
-      - layout: left
         description: Red Hat Linux Fundamentals
         caption: 2022
+      - layout: left
+        description: Skillbox Devops practice
+        caption: 2021              
+      - layout: left
+        description: CISCO CCNA 
+        caption: 2013 - 2014
+
+
         
 
 
