@@ -60,18 +60,14 @@ content:
           caption: January 2022 - Present
           description: | # this will include new lines to allow paragraphs
            
-            - Linux (CentOS, Debian) installation, configuration, and administration.
-            - AWS Cloud (EC2, S3, VPC, IAM, Route53, CloudWatch, Lambda, etc.)
-            - AWX (Ansible Tower)
-            - IaC basic (Ansible, Terraform) 
-            - Git CI (Gitlab, Github)
-            - Docker
-            - Python (basic), bash
-            - Monitoring (Zabbix, Grafana, Prometheus)
-            - Borg backup
-            - Administration of oVirt, KVM 
-            - Optimizing and writing bash scripts 
-            - Administration of Zabbix and incident response
+            - Cloud and virtualization: AWS (EC2, Lambda, S3, IAM, VPC, Route53, CloudWatch), KVM, oVirt
+            - Infrastructure as code (IaC): Terraform, Ansible (AWX)
+            - Containerization: Docker, Minikube, Kubernetes (k8s)
+            - CI/CD: GitLab CI/CD, GitHub
+            - Languages ​​and scripts: Bash, Python (including Selenium)
+            - Monitoring and logging: Zabbix, Grafana, Prometheus
+            - Backup: Borg Backup
+            - Integrations and automation: Slack API, proxies, bots, refactoring of Legacy scripts
 
         - layout: left
           title: "Ves-Ukraine"
