@@ -56,17 +56,22 @@ content:
           title: "PINUP.TECH"
           link: https://pin-up.global/
           link_text: pin-up.global
-          sub_title: Junior Devops Engineer
+          sub_title: Junior Devops Engineer (Automation Team)
           caption: January 2022 - Present
           description: | # this will include new lines to allow paragraphs
+           The main efforts are focused on developing and supporting Slack bots, 
+           including their deployment (Terraform + GitLab CI/CD) to AWS Lambda,
+           integration with Slack API, as well as logic refactoring and code optimization.
+           
+           Technologies and tools:
            
             - Cloud and virtualization: AWS (EC2, Lambda, S3, IAM, VPC, Route53, CloudWatch), KVM, oVirt
-            - Infrastructure as code (IaC): Terraform, Ansible (AWX)
+            - Infrastructure as code (IaC): Terraform, Ansible (AWX Tower)
             - Containerization: Docker, Minikube, Kubernetes (k8s)
             - CI/CD: GitLab CI/CD, GitHub
-            - Languages ​​and scripts: Bash, Python (including Selenium)
+            - Languages ​​and scripts: Bash, Python 
             - Monitoring and logging: Zabbix, Grafana, Prometheus
-            - Backup: Borg Backup
+            - Backup: Borg Backup, Veeam Backup & Replication
             - Integrations and automation: Slack API, proxies, bots, refactoring of Legacy scripts
 
         - layout: left
